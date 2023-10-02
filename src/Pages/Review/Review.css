@@ -1,0 +1,45 @@
+.review .wrapper .review-card{
+    border: var(--border-color);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.review .wrapper .review-card img{
+    width: 4rem;
+
+}
+.review .wrapper .review-card p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: gray;
+    padding: 2rem 0;
+
+}
+.review .wrapper .review-card:hover p{
+    color: var(--black);
+}
+.review .wrapper .review-card .customer{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.review .wrapper .review-card .customer:hover{
+    transform: scale(1.1);
+}
+
+.review .wrapper .review-card h3{
+    text-shadow: 1px 1px 0 var(--card-color),-1px -1px 0 var(--card-color),-1px 1px 0 var(--card-color),1px -1px 0 var(--card-color);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+.review .wrapper .review-card .stars i{
+    font-size: 1.4rem;
+    color: var(--main-color);
+}

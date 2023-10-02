@@ -1,0 +1,48 @@
+.contact .content {
+    display: flex;
+    background-color: var(--black);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact .content iframe{
+    flex: 1 1 45rem;
+    object-fit: cover;
+    height: 45rem;
+}
+ .contact .content form{
+    flex: 1 1 45rem;
+    height: 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .content form h3{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+.contact .content form .input-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: var(--border-color);
+    
+    
+}
+
+.contact .content form .input-box span{
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+.contact .content form .input-box  input{
+    padding:1.6rem;
+    background-color:var(--black);
+    color: #fff;
+    width: 100%;
+    font-size: 1.4rem;
+    text-transform: none;
+
+}

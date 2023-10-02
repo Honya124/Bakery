@@ -1,0 +1,45 @@
+.new-arrivals .wrapper .new-arrival-card{
+    background-color: var(--brownie-card-color);
+    border: var(--border-color);
+    
+}
+
+/* .new-arrivals .wrapper .new-arrival-card > .newArrivals-btn:hover{
+    display: ;
+} */
+
+
+.new-arrivals .wrapper .new-arrival-card .img {
+    width: 100%;
+}
+.new-arrivals .wrapper .new-arrival-card .img img{
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.new-arrivals .wrapper .new-arrival-card .content{
+    padding: 2rem;
+}
+.new-arrivals .wrapper .new-arrival-card .content a:nth-of-type(1){
+   font-size:2.5rem;
+   color: var(--black);
+   line-height: 5rem;
+}
+
+.new-arrivals .wrapper .new-arrival-card .content p{
+    color: gray;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.new-arrivals .wrapper .new-arrival-card .content .btn{
+transform: scale(0);
+}
+
+.new-arrivals .wrapper .new-arrival-card:hover .content a:nth-of-type(2){
+transform: scale(1);
+}
+.new-arrivals .wrapper .new-arrival-card:hover .content p{
+    color: var(--black);
+}

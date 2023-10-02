@@ -1,0 +1,61 @@
+.cheese-cakes .wrapper .cheesecake-card{
+background-color: var(--cheesecake-card-color);
+padding:  2rem;
+text-align: center;
+border: var(--border-color);
+}
+
+.cheese-cakes .wrapper .cheesecake-card:hover{
+    box-shadow: var(--box-shadow-color);
+
+}
+
+.cheese-cakes .wrapper .cheesecake-card .icons a{
+display: inline-block;/* labar awai link */
+  border: var(--border-color);
+  color: #fff;
+  font-size: 2rem;
+  /* agar icon nakawta nawarast la row haman riz bwn bas la vertical jiawaz bwn la regian line-height
+   charasar akret chwnka har texta.*/
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+ margin: .5rem;
+}
+
+.cheese-cakes .wrapper .cheesecake-card .icons a:hover{
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow-color);
+}
+.cheese-cakes .wrapper .cheesecake-card .img {
+    padding: 2.5rem 0;
+}
+.cheese-cakes .wrapper .cheesecake-card .img img{
+  height: 20rem;
+}
+
+.cheese-cakes .wrapper .cheesecake-card .content h3{
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.cheese-cakes .wrapper .cheesecake-card .content .stars {
+    padding: 1rem;
+}
+
+.cheese-cakes .wrapper .cheesecake-card .content .stars i{
+    color: var(--main-color);
+    font-size: 1.4rem;
+}
+
+.cheese-cakes .wrapper .cheesecake-card .content .price{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.cheese-cakes .wrapper .cheesecake-card .content .price span{
+    font-size: 1.4rem;
+    text-decoration: line-through;
+}
+
+
