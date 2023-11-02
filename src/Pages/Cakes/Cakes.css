@@ -6,7 +6,7 @@
 }
 
 .cakes .wrapper .cake-card:hover{
-    background-color: var(--black); 
+    /* background-color: var(--black);  */
     transform: scaleY(1.1);
    }
    .cakes .wrapper .cake-card:hover *:not(a){
