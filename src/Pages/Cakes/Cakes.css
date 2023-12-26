@@ -1,24 +1,32 @@
+
 .cakes .wrapper .cake-card{
- background-color: var(--card-color); 
+    border: var(--border-color);
+    border-radius: 1rem;
  text-align: center;
  padding: 3rem 2rem;
  /* transform-origin: top center; wata ba (top  & center) jegir bet */
+}
+.cakes .wrapper .cake-card:hover{
+    box-shadow: var(--box-shadow-color);
 }
 
 /* .cakes .wrapper .cake-card:hover{
     background-color: var(--black); 
     transform: scaleY(1.1);
    } */
-   .cakes .wrapper .cake-card:hover *:not(a){
+   .cakes .wrapper .cake-card h3{
     color:var(--main-color);
    }
+   /* .cakes .wrapper .cake-card:hover *:not(a){
+    color:var(--main-color);
+   } */
 
 .cakes .wrapper .cake-card img{
    height: 20rem;
 }
 
 .cakes .wrapper .cake-card h3{
-    color: #fff;
+    color: var(--main-color);
     font-size: 2rem;
     padding: 1rem 0;
     
@@ -26,14 +34,14 @@
 
 
 .cakes .wrapper .cake-card .price{
-    color: #fff;
+    color: var(--main-color);
     font-size: 1.8rem;
     padding: .5rem 0;
 }
 /*la rwy priority*/
 /*Html element < Class name < ID names*/
 .cakes .wrapper .cake-card .price span{
-    color: #fff;
+    color: var(--main-color);
     font-size: 1.4rem;
     text-decoration: line-through;
 }

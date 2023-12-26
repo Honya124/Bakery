@@ -46,3 +46,6 @@
     text-transform: none;
 
 }
+.contact .content form .input-box  input::placeholder{
+    color: #fff;
+}

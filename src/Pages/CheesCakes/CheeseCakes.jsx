@@ -1,11 +1,17 @@
 import React from "react";
 import "./CheeseCakes.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHeart,faEye,faShoppingCart, faStar, faStarHalfAlt} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHeart,
+  faEye,
+  faShoppingCart,
+  faStar,
+  faStarHalfAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import useTitle from "../../hooks/useTitle";
 function CheeseCakes() {
-  useTitle("Cheese-Cakes")
+  useTitle("Cheese-Cakes");
   const cheesecakes = [
     {
       img: require("../../img/cheesecake2.jpg"),
@@ -28,7 +34,6 @@ function CheeseCakes() {
       orginalPrice: "$14.33",
       btn: "add to cart",
     },
- 
   ];
   return (
     <section className="cheese-cakes" id="cheesecakes">
@@ -39,24 +44,45 @@ function CheeseCakes() {
         {cheesecakes.map((cheesecake) => (
           <div className="cheesecake-card">
             <div className="icons">
-                <Link to="" ><FontAwesomeIcon icon={faShoppingCart}/></Link>
-                <Link to="" ><FontAwesomeIcon icon={faHeart}/></Link>
-                <Link to="" ><FontAwesomeIcon icon={faEye}/></Link>
+              <Link to="">
+                <FontAwesomeIcon icon={faShoppingCart} />
+              </Link>
+              <Link to="">
+                <FontAwesomeIcon icon={faHeart} />
+              </Link>
+              <Link to="">
+                <FontAwesomeIcon icon={faEye} />
+              </Link>
             </div>
             <div className="img">
-                <img src={cheesecake.img} alt="cheese cake" />
+              <img src={cheesecake.img} alt="cheese cake" />
             </div>
             <div className="content">
-                <h3>{cheesecake.name}</h3>
-            <div className="stars">
-              <i><FontAwesomeIcon icon={faStar}/></i>
-              <i><FontAwesomeIcon icon={faStar}/></i>
-              <i><FontAwesomeIcon icon={faStar}/></i>
-              <i><FontAwesomeIcon icon={faStar}/></i>
-              <i><FontAwesomeIcon icon={faStar}/></i>
-              <i> <FontAwesomeIcon icon={faStarHalfAlt}/></i>
-            </div>
-            <div className="price">{cheesecake.price} <span>{cheesecake.orginalPrice}</span></div>
+              <h3>{cheesecake.name}</h3>
+              <div className="stars">
+                <i>
+                  <FontAwesomeIcon icon={faStar} />
+                </i>
+                <i>
+                  <FontAwesomeIcon icon={faStar} />
+                </i>
+                <i>
+                  <FontAwesomeIcon icon={faStar} />
+                </i>
+                <i>
+                  <FontAwesomeIcon icon={faStar} />
+                </i>
+                <i>
+                  <FontAwesomeIcon icon={faStar} />
+                </i>
+                <i>
+                  {" "}
+                  <FontAwesomeIcon icon={faStarHalfAlt} />
+                </i>
+              </div>
+              <div className="price">
+                {cheesecake.price} <span>{cheesecake.orginalPrice}</span>
+              </div>
             </div>
           </div>
         ))}

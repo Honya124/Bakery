@@ -1,6 +1,7 @@
 .new-arrivals .wrapper .new-arrival-card{
     background-color: var(--brownie-card-color);
     border: var(--border-color);
+    border-radius: 1rem;
     
 }
 
