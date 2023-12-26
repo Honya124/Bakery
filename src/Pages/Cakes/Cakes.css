@@ -3,8 +3,7 @@
     border: var(--border-color);
     border-radius: 1rem;
  text-align: center;
- padding: 3rem 2rem;
- flex-wrap: nowrap;
+ padding: 3rem ;
  /* transform-origin: top center; wata ba (top  & center) jegir bet */
 }
 .cakes .wrapper .cake-card:hover{
